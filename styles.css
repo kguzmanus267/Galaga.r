@@ -1,0 +1,78 @@
+*{ display: inline;
+    background-color: #1A1A1A;
+    margin-top: 5px;
+}
+
+div{
+    display: inline;
+
+}
+
+.title{
+    display: inline, flex;
+    flex-direction: row;
+    color: antiquewhite;
+    font-family: "ocr-a-std" ;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 62px;
+    min-height: 66px;
+    min-width: 302px;
+    white-space: nowrap;
+}
+.playerlives{
+    display: inline, flex;
+    flex-direction: row;
+    font-family: "ocr-a-std";
+    color: antiquewhite;
+    height: 26px;
+    letter-spacing: 0;
+    line-height: 35px;
+    margin-left: 97px;
+    white-space: nowrap;
+    width: 160px;}
+
+.life1,.life2,.life3{
+    display: inline, flex;
+    flex-direction: row;
+    width: 30px;
+}
+.score{
+    font-family: "ocr-a-std";
+    color: antiquewhite;
+    height: 26px;
+    letter-spacing: 0;
+    line-height: 35px;
+    margin-left: 97px;
+    margin-top: 16px;
+    white-space: nowrap;
+    width: 160px;}
+    .point{
+        font-family: "ocr-a-std";
+        color: antiquewhite;
+        height: 26px;
+        letter-spacing: 0;
+        line-height: 35px;
+        margin-left: 97px;
+        margin-top: 16px;
+        white-space: nowrap;
+        width: 160px;}
+aside{
+    color: antiquewhite;
+    font-family: "ocr-a-std";
+    font-size: x-large;
+    float:  right;
+    width: 40rem;
+    height: 100%;
+    padding-top: 300px;
+}
+/*{
+    display: flex;
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    bottom: 10px;
+    transform: rotate(90deg);
+    height: 75px;
+    width: 75px;
+}
